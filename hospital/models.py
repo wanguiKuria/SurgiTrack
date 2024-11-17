@@ -3,11 +3,11 @@ from django.contrib.auth.models import User
 
 
 
-departments=[('Cardiologist','Cardiologist'),
-('Dermatologists','Dermatologists'),
-('Emergency Medicine Specialists','Emergency Medicine Specialists'),
-('Allergists/Immunologists','Allergists/Immunologists'),
-('Anesthesiologists','Anesthesiologists'),
+departments=[('Cardiology','Cardiology'),
+('DNeurosurgery','Neurosurgery'),
+('Nephrology','Nephrology'),
+('General Surgery','General Surgery'),
+('Pediatric Surgery','Pediatric surgery'),
 ('Colon and Rectal Surgeons','Colon and Rectal Surgeons')
 ]
 class Doctor(models.Model):

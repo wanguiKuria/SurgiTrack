@@ -56,7 +56,7 @@
 {% endif %}
 
 
-<!------ add appointment page by patient(sumit)  ---------->
+<!------ add appointment page by patient  ---------->
 <form method="post">
   {% csrf_token %}
   <div class="container register-form">
@@ -71,7 +71,7 @@
               {% render_field appointmentForm.description class="form-control" placeholder="Description" %}
             </div>
             <div class="form-group">
-              {% render_field appointmentForm.doctorId class="form-control" placeholder="doctor" %}
+              {% render_field appointmentForm.doctorId class="form-control" placeholder="surgeon" %}
             </div>
             
 
